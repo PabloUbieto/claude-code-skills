@@ -1,8 +1,17 @@
-# Claude Code Skills
+<h1 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/branding/claude-code-skills-logo-dark.png">
+    <img src="assets/branding/claude-code-skills-logo.png" alt="Claude Code Skills" width="420">
+  </picture>
+</h1>
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+<p align="center">
+  Colección personal de skills para Claude Code.
+</p>
 
-Colección personal de skills para [Claude Code](https://docs.claude.com/en/docs/claude-code).
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License: MIT"></a>
+</p>
 
 ## Descripción
 
@@ -14,8 +23,9 @@ Este repositorio reúne las skills que uso en mis proyectos: algunas escritas po
 
 ```
 claude-code-skills/
-├── third-party/    # Skills de otros autores
-├── custom/         # Skills escritas por mí
+├── assets/branding/    # Logo
+├── third-party/        # Skills de otros autores
+├── custom/             # Skills escritas por mí
 ├── LICENSE
 └── README.md
 ```
@@ -24,8 +34,8 @@ Cada skill vive en su propia carpeta:
 
 ```
 nombre-de-la-skill/
-├── SKILL.md        # Instrucciones (obligatorio)
-└── ...             # Archivos de apoyo que usa la skill (opcional)
+├── SKILL.md            # Instrucciones (obligatorio)
+└── ...                 # Archivos de apoyo que usa la skill (opcional)
 ```
 
 ## Skills
@@ -68,9 +78,13 @@ Copia la carpeta de la skill que quieras en una de estas ubicaciones:
 
 Las skills de `third-party/` proceden de [mattpocock/skills](https://github.com/mattpocock/skills). El mérito es del autor original.
 
+## Aviso
+
+Proyecto personal, sin relación con Anthropic. Claude y Claude Code son marcas de sus respectivos propietarios.
+
 ## Autor
 
-Pablo Ubieto Foncillas ([@PabloUbieto](https://github.com/PabloUbieto))
+Pablo Ubieto Foncillas ([@PabloUbieto](https://github.com/PabloUbieto)).
 
 ## Licencia
 
