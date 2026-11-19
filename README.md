@@ -1,3 +1,7 @@
+<p align="center">
+  <b>Español</b> | <a href="README.en.md">English</a>
+</p>
+
 <h1 align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/branding/claude-code-skills-logo-dark.png">
@@ -27,7 +31,8 @@ claude-code-skills/
 ├── third-party/        # Skills de otros autores
 ├── custom/             # Skills escritas por mí
 ├── LICENSE
-└── README.md
+├── README.md
+└── README.en.md
 ```
 
 Cada skill vive en su propia carpeta:
